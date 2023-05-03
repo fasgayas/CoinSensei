@@ -2,6 +2,10 @@
 CoinSensei is a software application aimed to help people track their expenses, income, financial goals, and liabilities better, which are factors that significantly impact their financial health. The proposed application would contain a user-friendly interface to reduce intimidation for new users and to allow easier navigation while using the application (Add, Update, Delete, and Search). It also aims to promote a high-security system to prevent hackers from getting into a user’s account using a secure database.
 
 # Usage
+1. Download all the source codes 
+2. Open the folder in VS Community, WPF C#
+3. Browse through Solution CoinSensei, then Run!
+
 The application's dashboard provides four main options:
 
 Financial Details: Users can view and manage their financial details, including bank accounts, credit cards, loans, investments, and assets.

@@ -1,0 +1,103 @@
+﻿<Window x:Class="CoinSensei.Dashboard"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CoinSensei"
+        mc:Ignorable="d"
+        Title="Dashboard" Height="450" Width="800"
+        Background="#aac16f">
+    <Grid>
+        <Label
+            Content="Hi! Welcome to Coin Sensei!"
+            Foreground="Black"
+            FontSize="30"
+            FontWeight="SemiBold"
+            FontFamily="Canva Sans"
+            HorizontalAlignment="Left"
+            Width="416"
+            Margin="25,26,0,0" VerticalAlignment="Top"
+            />
+
+        <Button x:Name="Financial_Details_Button" 
+                Content="Financial Details"
+                HorizontalAlignment="Center" 
+                Margin="0,102,0,0" 
+                VerticalAlignment="Top"
+                Height="32" Width="300"
+                FontFamily="Canva Sans"
+                FontSize="18" 
+                Click="Button_Click_FinancialDetails"
+                Background="#fec96b"
+                />
+        
+        <Button x:Name="Expense_Tracking_Button" 
+                Content="Expense Tracking"
+                HorizontalAlignment="Center" 
+                Margin="0,153,0,0" 
+                VerticalAlignment="Top"
+                Height="33" Width="300"
+                FontFamily="Canva Sans"
+                FontSize="18" 
+                Click="Button_Click_ExpenseTracking"
+                Background="#fec96b"
+                />
+        
+        <Button x:Name="Income_Stream_Button" 
+                Content="Income Stream"
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Top"
+                Height="33" Width="300"
+                FontFamily="Canva Sans"
+                FontSize="18" 
+                Click="Button_Click_IncomeStream"
+                Background="#fec96b" Margin="0,213,0,0"
+                />
+
+        <Button x:Name="Logout" 
+                Content="Logout"
+                HorizontalAlignment="Center" 
+                Margin="0,273,0,0"
+                VerticalAlignment="Top"
+                Height="33" Width="300"
+                FontFamily="Canva Sans"
+                FontSize="18" 
+                Click="Button_Click_Logout"
+                Background="#fec96b"
+            />
+        
+        <Label 
+            Content="This application will help you manage your expenses and overall financial health"
+            HorizontalAlignment="Left" 
+            Margin="142,332,0,0"
+            VerticalAlignment="Top" 
+            FontFamily="Canva Sans"
+            FontSize="14" 
+            Background="{x:Null}" 
+            BorderBrush="Black"
+            />
+
+
+        <Label 
+            Content="Click on the options on the dashboard to explore and use the appplication features."
+            HorizontalAlignment="Center" 
+            Margin="0,352,0,0"
+            VerticalAlignment="Top" 
+            FontFamily="Canva Sans"
+            FontSize="14" 
+            Background="{x:Null}" 
+            BorderBrush="Black"
+            />
+
+        <Label 
+            Content="Enjoy!"
+            HorizontalAlignment="Left" 
+            Margin="382,372,0,0"
+            VerticalAlignment="Top" 
+            FontFamily="Canva Sans"
+            FontSize="14" 
+            Background="{x:Null}" 
+            BorderBrush="Black"
+            />
+    </Grid>
+</Window>

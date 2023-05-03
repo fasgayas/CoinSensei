@@ -1,0 +1,208 @@
+﻿<Window x:Class="CoinSensei.SignUpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CoinSensei"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="400"
+        Background="#aac16f">
+    <Grid>
+
+        <Label 
+            Content="Name"
+            HorizontalAlignment="Left" 
+            Margin="37,89,0,0" 
+            VerticalAlignment="Top" 
+            FontFamily="Canva Sans"
+            FontWeight="SemiBold"
+            FontSize="14" 
+            Background="{x:Null}" 
+            BorderBrush="Black"
+            />
+
+        <Label 
+            Content="Age"
+            HorizontalAlignment="Left" 
+            Margin="37,119,0,0" 
+            VerticalAlignment="Top" 
+            FontFamily="Canva Sans"
+            FontWeight="SemiBold"
+            FontSize="14"
+            />
+
+        <Label 
+            Content="Occupation" 
+            HorizontalAlignment="Left"
+            Margin="37,152,0,0" 
+            VerticalAlignment="Top" 
+            FontFamily="Canva Sans"
+            FontWeight="SemiBold"
+            FontSize="14"
+            />
+
+        <Label 
+            Content="Email (optional)" 
+            HorizontalAlignment="Left"
+            Margin="37,187,0,0" 
+            VerticalAlignment="Top" 
+            FontFamily="Canva Sans"
+            FontWeight="SemiBold"
+            FontSize="14"
+            />
+
+        <Label 
+            Content="Google Drive Link&#xD;&#xA;(optional)" 
+            HorizontalAlignment="Left"
+            Margin="37,223,0,0" 
+            VerticalAlignment="Top" 
+            FontFamily="Canva Sans"
+            FontWeight="SemiBold"
+            FontSize="14"
+            />
+
+        <Label 
+            Content="Username"
+            HorizontalAlignment="Left" 
+            Margin="37,294,0,0" 
+            VerticalAlignment="Top" 
+            FontFamily="Canva Sans"
+            FontWeight="SemiBold"
+            FontSize="14"
+            />
+
+        <Label 
+            Content="Password" 
+            HorizontalAlignment="Left"
+            Margin="37,328,0,0"
+            VerticalAlignment="Top" 
+            FontFamily="Canva Sans"
+            FontWeight="SemiBold"
+            FontSize="14"
+            />
+        <Label 
+            Content="User Details" 
+            HorizontalAlignment="Left" 
+            Margin="37,15,0,0" 
+            VerticalAlignment="Top" 
+            FontFamily="Canva Sans" 
+            FontWeight="Bold" 
+            FontSize="20"
+            />
+
+        <Label 
+            Content="_________________________________________" 
+            HorizontalAlignment="Left" 
+            Margin="37,23,0,0" 
+            VerticalAlignment="Top" 
+            FontFamily="Canva Sans" 
+            FontWeight="Bold" 
+            FontSize="20"
+            Foreground="White"
+           />
+
+        <TextBox x:Name="Name" 
+            HorizontalAlignment="Left" 
+            Margin="169,91,0,0" 
+            TextWrapping="Wrap"
+            VerticalAlignment="Top" 
+            Width="170"
+            />
+
+        <TextBox x:Name="Age" 
+            HorizontalAlignment="Left" 
+            Margin="169,123,0,0" 
+            TextWrapping="Wrap" 
+            VerticalAlignment="Top" 
+            Width="170"
+            />
+
+        <TextBox x:Name="Occupation" 
+            HorizontalAlignment="Left"
+            Margin="169,155,0,0" 
+            TextWrapping="Wrap" 
+            VerticalAlignment="Top"
+            Width="170"
+            />
+
+        <TextBox x:Name="Email" 
+            HorizontalAlignment="Left"
+            Margin="169,190,0,0"
+            TextWrapping="Wrap" 
+            VerticalAlignment="Top"
+            Width="170"
+            />
+
+        <TextBox x:Name="GoogleDriveLink" 
+            HorizontalAlignment="Left"
+            Margin="169,223,0,0" 
+            TextWrapping="Wrap" 
+            VerticalAlignment="Top"
+            Width="170" Height="24"
+            />
+
+        <TextBox x:Name="Username" 
+            HorizontalAlignment="Left"
+            Margin="169,298,0,0"
+            TextWrapping="Wrap" 
+            VerticalAlignment="Top" 
+            Width="170"
+            />
+
+        <Button x:Name="save_button" 
+            Content="Save"
+            HorizontalAlignment="Left"
+            Margin="82,385,0,0" 
+            VerticalAlignment="Top" 
+            Width="100" 
+            Height="32"
+            FontFamily="Canva Sans" 
+            FontSize="14"
+            Background="#453b31" 
+            Foreground="White"
+            FontWeight="Bold" 
+            Click="Button_Click_Save"
+            />
+
+        <Button x:Name="button_clicked_cancel" 
+            Content="Cancel" 
+            HorizontalAlignment="Left"
+            Margin="206,385,0,0" 
+            VerticalAlignment="Top"
+            Width="100" Height="32" 
+            FontFamily="Century Gothic" 
+            FontSize="14" 
+            Background="#453b31" 
+            Foreground="White"
+            FontWeight="Bold" 
+            Click="Button_Click_1"
+            />
+        
+        <Label 
+            Content="Id"
+            HorizontalAlignment="Left" 
+            Margin="37,60,0,0" 
+            VerticalAlignment="Top" 
+            FontFamily="Canva Sans"
+            FontWeight="SemiBold"
+            FontSize="14" 
+            Background="{x:Null}" 
+            BorderBrush="Black"
+            />
+        <TextBox x:Name="Id" 
+            HorizontalAlignment="Left" 
+            Margin="169,62,0,0" 
+            TextWrapping="Wrap"
+            VerticalAlignment="Top" 
+            Width="170"
+            />
+        <TextBox x:Name="Password" 
+            HorizontalAlignment="Left"
+            Margin="169,337,0,0"
+            TextWrapping="Wrap" 
+            VerticalAlignment="Top" 
+            Width="170"
+            />
+
+    </Grid>
+</Window>
